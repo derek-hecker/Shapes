@@ -1,13 +1,15 @@
 ﻿using System;
 
+
 namespace Shapes
 {
     class Program
     {
         static void Main(string[] args)
         {
-            //Git Test
-            Console.WriteLine("Hello World!");
+            Square example = new Square(5);
+            Console.WriteLine(example.CalculateArea());
+            Console.WriteLine(example.CalculatePermimeter());
         }
     }
 }
