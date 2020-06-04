@@ -14,6 +14,10 @@ namespace Shapes
             Rectangle Box = new Rectangle(3, 5);
             Console.WriteLine(Box.CalculateArea());
             Console.WriteLine(Box.CalculatePermimeter());
+
+            Circle Things = new Circle(5);
+            Console.WriteLine(Things.CalculateArea());
+            Console.WriteLine(Things.CalculatePermimeter());
         }
     }
 }
