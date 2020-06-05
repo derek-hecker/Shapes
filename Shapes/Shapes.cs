@@ -18,6 +18,14 @@ namespace Shapes
             Circle Things = new Circle(5);
             Console.WriteLine(Things.CalculateArea());
             Console.WriteLine(Things.CalculatePermimeter());
+
+            Ellipse AlmostCircle = new Ellipse(2, 2);
+            Console.WriteLine(AlmostCircle.CalculateArea());
+            Console.WriteLine(AlmostCircle.CalculatePermimeter());
+
+            Pentagon Government = new Pentagon(3);
+            Console.WriteLine(Government.CalculateArea());
+            Console.WriteLine(Government.CalculatePermimeter());
         }
     }
 }
