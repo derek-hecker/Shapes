@@ -11,7 +11,8 @@ namespace Shapes
         }
         public Pentagon(double length)
         {
-            Console.WriteLine("Pentagon being created");
+            Console.WriteLine("");
+            Console.WriteLine("Pentagon being created with side length of "+ length);
             lengthOfSide = length;
         }
         public Pentagon(Pentagon copy)

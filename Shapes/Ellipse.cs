@@ -7,13 +7,14 @@ namespace Shapes
         public double SemiMinorAxis;
         public Ellipse()
         {
-            Console.WriteLine("Ellipse being created");
+            Console.WriteLine("Ellipse being created" );
             SemiMajorAxis = 1;
             SemiMinorAxis = 1;
         }
         public Ellipse(double wide, double tall)
         {
-            Console.WriteLine("Ellipse being created");
+            Console.WriteLine("");
+            Console.WriteLine("Ellipse being created with SemiMajorAxis: " + wide + " and SemiMinorAxis: " + tall);
             SemiMajorAxis = wide;
             SemiMinorAxis = tall;
         }

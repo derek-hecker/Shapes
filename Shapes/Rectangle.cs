@@ -15,7 +15,8 @@ namespace Shapes
         }
         public Rectangle(double wide, double tall)
         {
-            Console.WriteLine("Rectangle being created");
+            Console.WriteLine("");
+            Console.WriteLine("Rectangle being created with a width of " + wide + " and a height of " + tall);
             width = wide;
             height = tall;
         }

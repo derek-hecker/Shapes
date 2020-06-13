@@ -11,7 +11,8 @@ namespace Shapes
         }
         public Circle(double length)
         {
-            Console.WriteLine("Circle being created");
+            Console.WriteLine("");
+            Console.WriteLine("Circle being created with radius of " + length);
             radius = length;
         }
         public Circle(Circle copy)

@@ -13,7 +13,8 @@ namespace Shapes
         } 
         public Square(double length)
         {
-            Console.WriteLine("Square being created");
+            Console.WriteLine("");
+            Console.WriteLine("Square being created with side length of "+ length);
             lengthOfSide = length;
         }
         public Square(Square copy)
